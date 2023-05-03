@@ -1,0 +1,12 @@
+[package]
+name = "barium"
+version = "0.1.0"
+edition = "2021"
+authors = ["Julio Biason <julio.biason@pm.me>"]
+
+[dependencies]
+axum = "0.6.18"
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.17", features = ["env-filter", "fmt", "ansi"], default-features = false }
+clap = { version = "4.0.32", features = ["derive", "env"] }
+tokio = { version = "1.28.0", features = ["rt-multi-thread", "macros"] }
