@@ -1,8 +1,10 @@
 [package]
-name = "barium"
+name = "link_vault"
 version = "0.1.0"
 edition = "2021"
 authors = ["Julio Biason <julio.biason@pm.me>"]
+description = "A small webserver to save links to read later or bookmark."
+license = "AGPL-3.0-or-later"
 
 [dependencies]
 axum = "0.6.18"

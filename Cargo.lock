@@ -118,17 +118,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "barium"
-version = "0.1.0"
-dependencies = [
- "axum",
- "clap",
- "tokio",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "bitflags"
 version = "1.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -387,6 +376,17 @@ name = "libc"
 version = "0.2.142"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317"
+
+[[package]]
+name = "link_vault"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "clap",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
 
 [[package]]
 name = "linux-raw-sys"
